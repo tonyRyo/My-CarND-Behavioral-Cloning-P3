@@ -71,7 +71,7 @@ The model used an adam optimizer, so the learning rate was not tuned manually (m
 
 #### 4. Appropriate training data
 
-Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving(2 laps for clock-wise and 2 laps for counter clock-wise), recovering from the left and right sides of the road.
+Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving(Sample training data plus 2 laps for clock-wise and 2 laps for counter clock-wise), recovering from the left and right sides of the road.
 
 For details about how I created the training data, see the next section. 
 
@@ -112,9 +112,10 @@ I then recorded the vehicle recovering from the left side and right sides of the
 ![alt text][image6]
 
 To augment the data sat, I also flipped images and angles thinking that this would  For example, here is an image that has then been flipped:
+
 ![alt text][image7]
 
-After the collection process, I had X number of data points. I then preprocessed this data by normalization and mean centering.
+After the collection process, I had 118422 number of data points. I then preprocessed this data by normalization and mean centering.
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 

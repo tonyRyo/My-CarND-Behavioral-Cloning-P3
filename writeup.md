@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/r2c1.jpg "Recovery Image(Right to Center 2/2)"
 [image5]: ./examples/l2c0.jpg "Recovery Image(Left to Center 1/2)"
 [image6]: ./examples/l2c1.jpg "Normal Image(Left to Center 2/2)"
-[image7]: ./examples/flipped.jpg "Flipped Image"
+[image7]: ./examples/flipped.png "Flipped Image"
 [image8]: ./examples/figure_epoch5.png "Loss for epochs"
 
 ## Rubric Points
